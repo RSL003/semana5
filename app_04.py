@@ -6,8 +6,8 @@ from model import predict
 st.set_page_config(page_title="S5 · Churn sintético")
 st.title("¿Qué cliente podría darse de baja?")
 
-# Imagen situada en la misma carpeta que esta aplicación.
-imagen = Path(__file__).resolve().parent / "images.jpeg"
+# Imagen situada en la misma carpeta que app4.py
+imagen = Path(__file__).resolve().parent / "imagen.png"
 
 if imagen.is_file():
     st.image(str(imagen))
